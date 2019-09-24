@@ -23,9 +23,9 @@ public class CLctrlGestionComptePersonne {
         return this.conn.m_getRows(personne.m_select());
     }
 
-    public int m_CreeUnCompte(int id, String name, String firstName) throws SQLException {
+    public int m_CreeUnCompte(String name, String firstName) throws SQLException {
 
-        return  this.conn.m_actionRows(this.personne.m_insert(id,name,firstName));
+        return  this.conn.m_actionRows(this.personne.m_insert(name,firstName));
     }
 
 

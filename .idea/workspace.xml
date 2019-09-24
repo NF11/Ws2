@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8979e0d-daaa-41a8-875e-af24e1970b5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ws2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ws2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Controller/CLctrlCrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Controller/CLctrlCrypt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Controller/CLctrlGestionComptePersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Controller/CLctrlGestionComptePersonne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLcrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLcrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLfichier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLfichier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLmapTB_PERSONNE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLmapTB_PERSONNE.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,16 +32,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1088" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-5.1.40.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -59,6 +73,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -110,6 +129,7 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="controller + model + view" />
     <MESSAGE value="controller" />
     <option name="LAST_COMMIT_MESSAGE" value="controller" />

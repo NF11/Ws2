@@ -2,7 +2,6 @@ package com.nf11.nassim.Model;
 
 public class CLmapTB_PERSONNE {
 
-    private int id;
     private String name;
     private String firstName;
     private String query;
@@ -11,23 +10,14 @@ public class CLmapTB_PERSONNE {
         return "SELECT * from tb_personne;";
     }
 
-    public String m_insert(int id, String name, String firstName){
-        return "INSERT INTO tb_personne (id,name,firstName) VALUES ("+id+
-                "," + name +
-                "," + firstName+
-                ")";
+    public String m_insert(String name, String firstName){
+        return "INSERT INTO tb_personne (name,firstName) VALUES ('"+ name +
+                "','" +firstName+ "')";
     }
 
 
     // Getters & Setters
     //------------------------------------------------------
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;
