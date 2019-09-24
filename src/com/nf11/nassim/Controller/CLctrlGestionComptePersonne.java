@@ -6,7 +6,7 @@ import java.sql.*;
 public class CLctrlGestionComptePersonne {
     CLcad conn;
     CLmapTB_PERSONNE personne;
-    public CLctrlGestionComptePersonne{
+    public CLctrlGestionComptePersonne(){
         try {
             this.conn = new CLcad();
         } catch (SQLException e) {
