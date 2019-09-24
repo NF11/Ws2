@@ -317,7 +317,7 @@ public class LoginForm extends javax.swing.JFrame {
                 public void actionPerformed(ActionEvent e) {
                     CLctrlCrypt crypt = new CLctrlCrypt();
 
-                    String decrypted = crypt.decrypter(getPath(), "adhyudertjutl").split("null")[1];
+                    String decrypted = crypt.decrypter(getMessage(), "adhyudertjutl").split("null")[1];
 
                     System.out.println(decrypted);
                 }
@@ -337,14 +337,14 @@ public class LoginForm extends javax.swing.JFrame {
                         }
 
                         String a = sb.toString();
-                        a.replaceAll("\\\\\\\\", "\\\\");
-                        setPath(a);
+                        String replacement = a.replace("\\","\\\\" );
+                        setPath(replacement);
                         /*  JOptionPane.showMessageDialog(fenPrin, sb.toString()); */
-                        System.out.println(a);
+                        System.out.println(replacement);
                         CLctrlCrypt file = new CLctrlCrypt();
 
-                        setMessage( file.lireFichierSimple(a));
-
+                        setMessage( file.lireFichierSimple(replacement).split("null")[1]);
+                        System.out.println(getMessage());
                     }
 		                  /*  File selectedFile = fileChooser.getSelectedFile();
 		                    File[] files = fileChooser.getSelectedFiles();

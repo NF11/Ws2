@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8979e0d-daaa-41a8-875e-af24e1970b5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/nf11/nassim/View/LoginForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Controller/CLctrlGestionComptePersonne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Controller/CLctrlGestionComptePersonne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Model/CLcad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Model/CLcad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Model/CLmapTB_PERSONNE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Model/CLmapTB_PERSONNE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Controller/CLctrlGestionComptePersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Controller/CLctrlGestionComptePersonne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLcad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLcad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLmapTB_PERSONNE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLmapTB_PERSONNE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/View/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/View/LoginForm.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1RItc2L9iLhYfbtPbcD27e9AvBh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -134,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569319397333</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added javaxor + View">
+      <created>1569340231882</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569340231882</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -143,10 +143,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="controller + model + view" />
     <MESSAGE value="controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="controller" />
+    <MESSAGE value="added javaxor + View" />
+    <option name="LAST_COMMIT_MESSAGE" value="added javaxor + View" />
   </component>
 </project>
