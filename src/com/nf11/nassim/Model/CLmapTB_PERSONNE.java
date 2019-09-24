@@ -10,6 +10,10 @@ public class CLmapTB_PERSONNE {
         return "SELECT * from tb_personne;";
     }
 
+    public String m_select_single(String username){
+        return "SELECT * from tb_personne where name='"+username+"';";
+    }
+
     public String m_insert(String name, String firstName){
         return "INSERT INTO tb_personne (name,firstName) VALUES ('"+ name +
                 "','" +firstName+ "')";

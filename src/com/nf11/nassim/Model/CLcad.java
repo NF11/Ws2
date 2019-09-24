@@ -76,6 +76,8 @@ public class CLcad {
         return getStmt().executeQuery(select);
     }
 
+
+
     public int m_actionRows(String sql) throws SQLException {
 
         return getStmt().executeUpdate(sql);

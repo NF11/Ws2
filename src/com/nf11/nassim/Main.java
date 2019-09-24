@@ -1,5 +1,6 @@
 package com.nf11.nassim;
 
+import com.nf11.nassim.Controller.CLctrlCrypt;
 import com.nf11.nassim.Controller.CLctrlGestionComptePersonne;
 
 import java.sql.ResultSet;
@@ -8,20 +9,23 @@ import java.sql.SQLException;
 public class Main{
 
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
-        System.out.println("salut");
+//
+//        CLctrlGestionComptePersonne objGestion;
+//        ResultSet rs;
+//
+//        objGestion = new CLctrlGestionComptePersonne();
+//
+//        rs = objGestion.m_get_single("Rafik");
+//        afficher(rs);
 
-        CLctrlGestionComptePersonne objGestion;
-        ResultSet rs;
+         // rs = objGestion.m_listerLesCompte();
+//        afficher(rs);
+//
+//        objGestion.m_CreeUnCompte ("X", "x");
+//        rs = objGestion.m_listerLesCompte();
+//        afficher(rs);
 
-        objGestion = new CLctrlGestionComptePersonne();
 
-        rs = objGestion.m_listerLesCompte();
-        afficher(rs);
-
-        objGestion.m_CreeUnCompte ("X", "x");
-        rs = objGestion.m_listerLesCompte();
-        afficher(rs);
-        /*
 
         CLctrlCrypt o1;
         String reponse, decrypted, decrypted1;
@@ -36,25 +40,14 @@ public class Main{
 
         o1.ecrireFichierSimple("C:\\Users\\ordan\\Desktop\\b.txt", reponse);
 
-        reponse = o1.lireFichierSimple("C:\\Users\\ordan\\Desktop\\b.txt");
-        reponse = o1.crypter(reponse, "adhyudertjutl");
+        reponse = o1.lireFichierSimple("C:\\Users\\ordan\\Desktop\\b.txt").split("null")[1];;
 
-
-        o1.ecrireFichierSimple("C:\\Users\\ordan\\Desktop\\c.txt", reponse);
-        reponse = o1.lireFichierSimple("C:\\Users\\ordan\\Desktop\\c.txt");
-
-        String first = reponse.split("null")[1];
-
-        decrypted = o1.decrypter(first,"adhyudertjutl" );
-
-        decrypted = o1.decrypter(decrypted, "adhyudertjutl");
-
+        System.out.println("Crypted text :");
+        System.out.println(reponse);
+        decrypted = o1.decrypter(reponse,"adhyudertjutl" ).split("null")[1];;
+        System.out.println("Decrypted text :");
         System.out.println(decrypted);
 
-
-
-        System.out.println("Terminé");
-         */
     }
 
     public static void afficher(ResultSet rs)

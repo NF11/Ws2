@@ -23,6 +23,10 @@ public class CLctrlGestionComptePersonne {
         return this.conn.m_getRows(personne.m_select());
     }
 
+    public ResultSet m_get_single(String username) throws SQLException, ClassNotFoundException {
+        return this.conn.m_getRows(personne.m_select_single(username));
+    }
+
     public int m_CreeUnCompte(String name, String firstName) throws SQLException {
 
         return  this.conn.m_actionRows(this.personne.m_insert(name,firstName));

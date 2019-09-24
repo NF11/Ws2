@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8979e0d-daaa-41a8-875e-af24e1970b5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nf11/nassim/View/LoginForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ws2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ws2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Controller/CLctrlCrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Controller/CLctrlCrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Controller/CLctrlGestionComptePersonne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Controller/CLctrlGestionComptePersonne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Model/CLcad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Model/CLcad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Model/CLmapTB_PERSONNE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Model/CLmapTB_PERSONNE.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Controller/CLctrlGestionComptePersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Controller/CLctrlGestionComptePersonne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLcrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLcrypt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLfichier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLfichier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLcad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLcad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLmapTB_PERSONNE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLmapTB_PERSONNE.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +49,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -62,7 +63,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LoginForm">
+    <configuration name="LoginForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nf11.nassim.View.LoginForm" />
+      <module name="Ws2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nf11.nassim.View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.nf11.nassim.Main" />
       <module name="Ws2" />
@@ -75,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoginForm" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
