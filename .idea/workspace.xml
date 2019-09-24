@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8979e0d-daaa-41a8-875e-af24e1970b5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Controller/CLctrlGestionComptePersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Controller/CLctrlGestionComptePersonne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLmapTB_PERSONNE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/Model/CLmapTB_PERSONNE.java" afterDir="false" />
-    </list>
+    <list default="true" id="c8979e0d-daaa-41a8-875e-af24e1970b5d" name="Default Changelist" comment="controller" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
