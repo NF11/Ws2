@@ -12,14 +12,12 @@ public class Key {
         private static final String Zeta="&~#|`-_)('/?,;:.";
         private static String demo ="";
         private static double i =0;
+
         public static void main(String[] args) {
             FileWriter writer;
             try {
                 writer = new FileWriter("C:\\Users\\nassi\\Desktop\\javatest\\dico01.txt");
-
                 {
-
-
                     for (i=0;i<314159260L;i++){
                         demo="awqp";
                         //randomisation des caractères selon leur nombre par type définis ,entre six et dix caratères
