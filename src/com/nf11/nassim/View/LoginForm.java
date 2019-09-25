@@ -3,6 +3,7 @@ package com.nf11.nassim.View;
 
 import com.nf11.nassim.Controller.CLctrlCrypt;
 import com.nf11.nassim.Controller.CLctrlGestionComptePersonne;
+import com.nf11.nassim.Model.CLfichier;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -41,6 +42,7 @@ public class LoginForm extends javax.swing.JFrame {
 
     private String message;
     private String path;
+    private String decrypted;
 
     public LoginForm() {
         initComponents();
@@ -318,7 +320,7 @@ public class LoginForm extends javax.swing.JFrame {
                     CLctrlCrypt crypt = new CLctrlCrypt();
 
                     String decrypted = crypt.decrypter(getMessage(), "adhyudertjutl").split("null")[1];
-
+                    setDecrypted(decrypted);
                     System.out.println(decrypted);
                 }
             });
@@ -375,7 +377,15 @@ public class LoginForm extends javax.swing.JFrame {
 
             exporter.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent ae) {
+                    JFileChooser fileChooser = new JFileChooser();
+                    if (fileChooser.showSaveDialog(fenPrin) == JFileChooser.APPROVE_OPTION) {
+                        File file = fileChooser.getSelectedFile();
+                        // save to file
+                        String path = file.getAbsolutePath().replace("\\", "\\\\");
+                        CLfichier fiche = new CLfichier();
 
+                        fiche.ecrireFichier(path,getDecrypted());
+                    }
                 }
 
             });
@@ -481,6 +491,14 @@ public class LoginForm extends javax.swing.JFrame {
 
     public void setPath(String path) {
         this.path = path;
+    }
+
+    public String getDecrypted() {
+        return decrypted;
+    }
+
+    public void setDecrypted(String decrypted) {
+        this.decrypted = decrypted;
     }
     // End of variables declaration//GEN-END:variables
 }
