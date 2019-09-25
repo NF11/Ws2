@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8979e0d-daaa-41a8-875e-af24e1970b5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Controller/CLctrlCrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Controller/CLctrlCrypt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Controller/CLctrlGestionComptePersonne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Controller/CLctrlGestionComptePersonne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Model/CLcad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Model/CLcad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Model/CLcrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Model/CLcrypt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Model/CLfichier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Model/CLfichier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Model/CLmapTB_PERSONNE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/Model/CLmapTB_PERSONNE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ws2/com/nf11/nassim/View/LoginForm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/nf11/nassim/View/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nf11/nassim/View/LoginForm.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,8 +30,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/nf11/nassim/View/LoginForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="323" column="50" lean-forward="true" selection-start-line="323" selection-start-column="50" selection-end-line="323" selection-end-column="50" />
+              <folding>
+                <element signature="e#1501#1531#0" expanded="true" />
+                <element signature="e#2714#2889#0" expanded="true" />
+                <element signature="e#2888#2889#0" expanded="true" />
+                <element signature="e#3357#3530#0" expanded="true" />
+                <element signature="e#3529#3530#0" expanded="true" />
+                <element signature="e#8108#8286#0" expanded="true" />
+                <element signature="e#8285#8286#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,9 +64,60 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/nf11/nassim/View/LoginForm.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="145" />
+    <option name="y" value="171" />
+    <option name="width" value="1750" />
+    <option name="height" value="1030" />
+  </component>
   <component name="ProjectId" id="1RItc2L9iLhYfbtPbcD27e9AvBh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Ws2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ws2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ws2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ws2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ws2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ws2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nassim" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ws2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ws2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nassim" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -98,6 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569309329468</updated>
       <workItem from="1569309332600" duration="4851000" />
+      <workItem from="1569402057946" duration="193000" />
     </task>
     <task id="LOCAL-00001" summary="controller + model + view">
       <created>1569314745200</created>
@@ -138,7 +229,44 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4851000" />
+    <option name="totallyTimeSpent" value="5044000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Learn" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32931727" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Codota" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -149,8 +277,28 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -163,5 +311,23 @@
     <MESSAGE value="controller" />
     <MESSAGE value="added javaxor + View" />
     <option name="LAST_COMMIT_MESSAGE" value="added javaxor + View" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/nf11/nassim/View/LoginForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="323" column="50" lean-forward="true" selection-start-line="323" selection-start-column="50" selection-end-line="323" selection-end-column="50" />
+          <folding>
+            <element signature="e#1501#1531#0" expanded="true" />
+            <element signature="e#2714#2889#0" expanded="true" />
+            <element signature="e#2888#2889#0" expanded="true" />
+            <element signature="e#3357#3530#0" expanded="true" />
+            <element signature="e#3529#3530#0" expanded="true" />
+            <element signature="e#8108#8286#0" expanded="true" />
+            <element signature="e#8285#8286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

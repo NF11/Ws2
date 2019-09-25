@@ -319,7 +319,7 @@ public class LoginForm extends javax.swing.JFrame {
                 public void actionPerformed(ActionEvent e) {
                     CLctrlCrypt crypt = new CLctrlCrypt();
 
-                    String decrypted = crypt.decrypter(getMessage(), "adhyudertjutl").split("null")[1];
+                    String decrypted = crypt.decrypter(getMessage(), "adhyudertjutl").replaceAll("null", "");
                     setDecrypted(decrypted);
                     System.out.println(decrypted);
                 }
