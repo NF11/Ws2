@@ -44,6 +44,7 @@ public class SelectGoodFile {
         brutForce.genKeys();
         List<String> keys = brutForce.getKeys();
 
+
         while (isGood == false &&  i < getPath().length){
             text = cLctrlCrypt.lireFichierSimple(getPath()[i]).replaceAll("null","");
 
