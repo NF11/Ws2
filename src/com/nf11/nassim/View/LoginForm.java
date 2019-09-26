@@ -3,6 +3,7 @@ package com.nf11.nassim.View;
 
 import com.nf11.nassim.Controller.CLctrlCrypt;
 import com.nf11.nassim.Controller.CLctrlGestionComptePersonne;
+import com.nf11.nassim.Controller.SelectGoodFile;
 import com.nf11.nassim.Model.CLfichier;
 
 import java.awt.event.ActionEvent;
@@ -41,7 +42,13 @@ public class LoginForm extends javax.swing.JFrame {
      */
 
     private String message;
-    private String path;
+
+    public void setPath(String[] path) {
+        for(int i = 0; i < path.length; i++)
+            this.path[i] = path[i];
+    }
+
+    private String[] path = new String[10];
     private String decrypted;
 
     public LoginForm() {
@@ -294,14 +301,6 @@ public class LoginForm extends javax.swing.JFrame {
 
         if(count > 0)
         {
-		    /*    HOME_JFrame mf = new HOME_JFrame();
-		        mf.setVisible(true);
-		        mf.pack();
-		        mf.setLocationRelativeTo(null);
-		        mf.setExtendedState(JFrame.MAXIMIZED_BOTH);
-		        mf.jLabel1.setText("Welcome < "+uname+" >");
-		        this.dispose();   */
-
 
             // COMPONENTS
             JFrame fenPrin = new JFrame();
@@ -317,11 +316,10 @@ public class LoginForm extends javax.swing.JFrame {
             decrypter.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    CLctrlCrypt crypt = new CLctrlCrypt();
-
-                    String decrypted = crypt.decrypter(getMessage(), "adhyudertjutl").replaceAll("null", "");
-                    setDecrypted(decrypted);
-                    System.out.println(decrypted);
+                    String result = "";
+                    SelectGoodFile selectGoodFile = new SelectGoodFile(getPath(),"adhyudertjutl");
+                    result = selectGoodFile.GetGood();
+                    System.out.println(result);
                 }
             });
 
@@ -332,46 +330,15 @@ public class LoginForm extends javax.swing.JFrame {
                     int retVal = fileChooser.showOpenDialog(fenPrin);
                     if (retVal == JFileChooser.APPROVE_OPTION) {
                         File[] selectedfiles = fileChooser.getSelectedFiles();
-                        StringBuilder sb = new StringBuilder();
+                        String[] files = new String[10];
                         for (int i = 0; i < selectedfiles.length; i++) {
-                            sb.append(selectedfiles[i].getPath());
 
+                            files[i] = selectedfiles[i].getPath().replace("\\","\\\\" );
                         }
 
-                        String a = sb.toString();
-                        String replacement = a.replace("\\","\\\\" );
-                        setPath(replacement);
-                        /*  JOptionPane.showMessageDialog(fenPrin, sb.toString()); */
-                        System.out.println(replacement);
-                        CLctrlCrypt file = new CLctrlCrypt();
 
-                        setMessage( file.lireFichierSimple(replacement).split("null")[1]);
-                        System.out.println(getMessage());
+                        setPath(files);
                     }
-		                  /*  File selectedFile = fileChooser.getSelectedFile();
-		                    File[] files = fileChooser.getSelectedFiles();
-		                    String path = selectedFile.getPath();
-		                    ArrayList<String> Paths = new ArrayList<String>();
-		                    System.out.println(files); */
-
-
-
-
-		                  /* ArrayList<String> Paths = new ArrayList<String>();
-		                   Paths.add() */
-
-
-
-
-
-
-
-
-
-
-
-
-
                 }
             });
 
@@ -485,12 +452,8 @@ public class LoginForm extends javax.swing.JFrame {
         this.message = message;
     }
 
-    public String getPath() {
-        return path;
-    }
-
-    public void setPath(String path) {
-        this.path = path;
+    public String[] getPath() {
+        return this.path;
     }
 
     public String getDecrypted() {
