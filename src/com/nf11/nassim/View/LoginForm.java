@@ -8,6 +8,7 @@ import com.nf11.nassim.Model.CLfichier;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -317,8 +318,12 @@ public class LoginForm extends javax.swing.JFrame {
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     String result = "";
-                    SelectGoodFile selectGoodFile = new SelectGoodFile(getPath(),"adhyudertjutl");
-                    result = selectGoodFile.GetGood();
+                    SelectGoodFile selectGoodFile = new SelectGoodFile(getPath(),"awqpnass");
+                    try {
+                        result = selectGoodFile.GetGood();
+                    } catch (IOException ex) {
+                        ex.printStackTrace();
+                    }
                     System.out.println(result);
                 }
             });

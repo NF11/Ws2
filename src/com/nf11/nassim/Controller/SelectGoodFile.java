@@ -2,7 +2,10 @@ package com.nf11.nassim.Controller;
 
 import com.nf11.nassim.Model.*;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
+import java.util.Scanner;
 
 public class SelectGoodFile {
 
@@ -31,14 +34,14 @@ public class SelectGoodFile {
         this.key = key;
     }
 
-    public String GetGood(){
+    public String GetGood() throws IOException {
         boolean isGood = false;
         int i =0 ;
         String text = "";
         String decrepted = "";
         CLctrlCrypt cLctrlCrypt = new CLctrlCrypt();
         MotDePasse mdp = new MotDePasse("");
-        AttaqueDictionnaire attaqueDictionnaire = new AttaqueDictionnaire(mdp, LectureFichier.getInstance().lireFichier("C:\\java\\Ws2\\src\\com\\nf11\\nassim\\dictionnaire.txt",360000));;
+        AttaqueDictionnaire attaqueDictionnaire = new AttaqueDictionnaire(mdp, LectureFichier.getInstance().lireFichier("C:\\Users\\ordan\\IdeaProjects\\Ws2\\src\\com\\nf11\\nassim\\dictionnaire.txt",360000));;
         String goodfile = "";
         BrutForce brutForce = new BrutForce();
         brutForce.genKeys();
@@ -68,26 +71,27 @@ public class SelectGoodFile {
 
         MotDePasse mdp1= new MotDePasse("");
         MotDePasse mdp2= new MotDePasse("");
-        MotDePasse mdp3= new MotDePasse("");
         AttaqueDictionnaire att1= new AttaqueDictionnaire(mdp1, LectureFichier.getInstance().lireFichier("C:\\java\\Ws2\\src\\com\\nf11\\nassim\\dictionnaire.txt",360000));;
         AttaqueDictionnaire att2= new AttaqueDictionnaire(mdp2, LectureFichier.getInstance().lireFichier("C:\\java\\Ws2\\src\\com\\nf11\\nassim\\dictionnaire.txt",360000));;
-        AttaqueDictionnaire att3= new AttaqueDictionnaire(mdp3, LectureFichier.getInstance().lireFichier("C:\\java\\Ws2\\src\\com\\nf11\\nassim\\dictionnaire.txt",360000));;
 
-        for(String thekey : keys) {
+            Scanner scanner = new Scanner(new File("filename"));
+            while (scanner.hasNextLine()) {
+                String key = scanner.nextLine();
+                // process the line
+
             decrepted = cLctrlCrypt.decrypter(text, key);
             mot1 = decrepted.split(" ")[0].toLowerCase();
             mot2 = decrepted.split(" ")[1].toLowerCase();
-            mot3 = decrepted.split(" ")[2].toLowerCase();
+
             System.out.println("rani hna bezaf");
             mdp1.setValeur(mot1);
             mdp2.setValeur(mot2);
-            mdp3.setValeur(mot3);
 
             att1.setPassword(mdp1);
             att2.setPassword(mdp2);
-            att3.setPassword(mdp3);
+
             System.out.println("ya zah");
-            if (att1.attaquer() != null && att2.attaquer() != null && att3.attaquer() != null) {
+            if (att1.attaquer() != null && att2.attaquer() != null) {
                 System.out.println(decrepted);
                 return "Successfully decrypted file";
             }

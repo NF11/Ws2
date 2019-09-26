@@ -1,5 +1,8 @@
 package com.nf11.nassim.Model;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -40,7 +43,13 @@ public class BrutForce {
     private static double i =0;
     private List<String> keys = new ArrayList<String>();
 
-    public void genKeys (){
+    public void genKeys () throws IOException {
+        FileWriter fileWriter = new FileWriter("C:\\Users\\ordan\\Desktop\\myKeys.txt");
+
+        // Always wrap FileWriter in BufferedWriter.
+        BufferedWriter bufferedWriter =
+                new BufferedWriter(fileWriter);
+
         for (i=0;i<314159260L;i++){
             demo="awqpnass";
             //randomisation des caractères selon leur nombre par type définis ,entre six et dix caratères
@@ -61,8 +70,10 @@ public class BrutForce {
                     demo+=mot.charAt(erzat);
                 }
             }
-            getKeys().add(demo);
+            bufferedWriter.write(demo);
+            bufferedWriter.newLine();
         }
+        bufferedWriter.close();
     }
 
 }

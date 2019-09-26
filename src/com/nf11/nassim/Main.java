@@ -34,30 +34,22 @@ public class Main{
         o1.ecrireFichierSimple("C:\\Users\\ordan\\Desktop\\a.txt", "Bonjour a tous. Comment Allez vous?");
 
         reponse = o1.lireFichierSimple("C:\\Users\\ordan\\Desktop\\a.txt");
-        reponse = o1.crypter(reponse, "adhyudertjutl");
+        reponse = o1.crypter(reponse, "awqpnasszebi");
 
 
 
         o1.ecrireFichierSimple("C:\\Users\\ordan\\Desktop\\b.txt", reponse);
 
+        reponse = o1.lireFichierSimple("C:\\Users\\ordan\\Desktop\\b.txt");
+        reponse = o1.crypter(reponse, "awqpnasszebi");
+
+
+
+        o1.ecrireFichierSimple("C:\\Users\\ordan\\Desktop\\c.txt", reponse);
+
         reponse = o1.lireFichierSimple("C:\\Users\\ordan\\Desktop\\b.txt").split("null")[1];;
 
-        System.out.println("Crypted text :");
-        System.out.println(reponse);
-        decrypted = o1.decrypter(reponse,"adhyudertjutl" ).split("null")[1];;
-        System.out.println("Decrypted text :");
-        System.out.println(decrypted);
 
-    }
 
-    public static void afficher(ResultSet rs)
-        {
-        try {
-            while (rs.next()) {
-                System.out.println(rs.getString("name") + " " + rs.getString("firstName"));
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
     }
 }
