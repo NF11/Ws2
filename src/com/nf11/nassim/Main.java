@@ -34,14 +34,14 @@ public class Main{
         o1.ecrireFichierSimple("C:\\Users\\ordan\\Desktop\\a.txt", "Bonjour a tous. Comment Allez vous?");
 
         reponse = o1.lireFichierSimple("C:\\Users\\ordan\\Desktop\\a.txt");
-        reponse = o1.crypter(reponse, "awqpnasszebi");
+        reponse = o1.crypter(reponse, "awqpnass");
 
 
 
         o1.ecrireFichierSimple("C:\\Users\\ordan\\Desktop\\b.txt", reponse);
 
         reponse = o1.lireFichierSimple("C:\\Users\\ordan\\Desktop\\b.txt");
-        reponse = o1.crypter(reponse, "awqpnasszebi");
+        reponse = o1.crypter(reponse, "awqpnass");
 
 
 

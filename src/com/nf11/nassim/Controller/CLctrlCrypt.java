@@ -19,32 +19,14 @@ public class CLctrlCrypt {
         return cLcrypt.m_crypt(texte, key);
     }
 
-    public String decrypter(String f, String key) {
-        String hexiToDeci = "";
-        String decrypText = "";
+    public String decrypter(String input, String keys) {
+        char[] key = keys.toCharArray(); //Can be any chars, and any length array
+        StringBuilder output = new StringBuilder();
 
-
-        for (int i = 0; i < f.length() - 1; i += 2) {
-
-            String output = f.substring(i, i + 2);
-
-            int decimal = Integer.parseInt(output, 16);
-
-            hexiToDeci += (char) decimal;
-
-        }
-        // Decrypt with XOR
-        int keyItr = 0;
-        for (int i = 0; i < hexiToDeci.length(); i++) {
-            // XOR
-            int temp = hexiToDeci.charAt(i) ^ key.charAt(keyItr);
-            decrypText += (char) temp;
-            keyItr++;
-            if (keyItr == key.length()) {
-                keyItr = 0;
-            }
+        for(int i = 0; i < input.length(); i++) {
+            output.append((char) (input.charAt(i) ^ key[i % key.length]));
         }
 
-        return decrypText;
+        return output.toString();
     }
 }

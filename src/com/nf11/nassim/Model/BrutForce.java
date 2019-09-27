@@ -44,14 +44,14 @@ public class BrutForce {
     private List<String> keys = new ArrayList<String>();
 
     public void genKeys () throws IOException {
-        FileWriter fileWriter = new FileWriter("C:\\Users\\ordan\\Desktop\\myKeys.txt");
+        FileWriter fileWriter = new FileWriter("C:\\Users\\nassi\\Desktop\\exia_test\\myKeys.txt");
 
         // Always wrap FileWriter in BufferedWriter.
         BufferedWriter bufferedWriter =
                 new BufferedWriter(fileWriter);
 
         for (i=0;i<314159260L;i++){
-            demo="awqpnass";
+            demo="awqpmndf";
             //randomisation des caractères selon leur nombre par type définis ,entre six et dix caratères
             while ((demo.length() != 12)&& (demo.length() != 12)) {
                 //selection aleatoire du type de caractère puis selection parmis les differents modèles de caractères
