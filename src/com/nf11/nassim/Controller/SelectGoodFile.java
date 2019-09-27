@@ -83,7 +83,7 @@ public class SelectGoodFile {
                 System.out.println(text);
             decrepted = cLctrlCrypt.decrypter(text, key);
             mot1 = decrepted.split(" ")[0].toLowerCase();
-            mot2 = decrepted.split(" ")[1].toLowerCase();
+            mot2 = decrepted.split(" ")[2].toLowerCase();
             mot3 = decrepted.split(" ")[2].toLowerCase();
 
             mdp1.setValeur(mot1);
